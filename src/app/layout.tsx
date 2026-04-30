@@ -47,6 +47,14 @@ const menuLayout = ({ children }: { children: React.ReactNode }) => {
                 Users
               </a>
             </li>
+            <li className="mb-2">
+              <a
+                href="/test"
+                className="block py-2 px-4 rounded hover:bg-gray-700"
+              >
+                Test id
+              </a>
+            </li>
           </ul>
         </nav>
       </aside>
